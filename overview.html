@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/overview.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><ion-icon name="car-sport-outline"></ion-icon>TPM</a>
+    <div class="nav">
+      <a href="overview.html">Overview</a>
+      <a href="addnew.html">Add New</a>
+    </div>
+  </header>
+
+  <section class="home">
+
+    <main class="main-content">
+      <header>
+          <h1>Travel Place Management</h1>
+      </header>
+
+      <div class="filter">
+        <span class="icon-search"><ion-icon name="search-outline"></ion-icon></span>
+        <input type="text" id="filter" placeholder="Search">
+    </div>
+      <section class="info-list">
+          <table>
+              <thead>
+                  <tr>
+                      <th>Place name</th>
+                      <th>Category</th>
+                      <th>Location</th>
+                      <th>Rating (1–5 Stars)</th>
+                      <th>Status</th>
+                      <th>Actions</th>
+                  </tr>
+              </thead>
+              <tbody id="place-list">
+                  <tr>
+                      <td>Angkor Wat</td>
+                      <td>Historical Site</td>
+                      <td>Siem Reap</td>
+                      <td>5 Stars</td>
+                      <td>Open</td>
+                      <td>
+                          <button class="view-btn"><a href="view.html">View</a></button>
+                          <button class="edit-btn"><a href="edit.html">Edit</a></button>
+                          <button class="delete-btn">Delete</button>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>Koh Rong Island</td>
+                    <td>Beach</td>
+                    <td>Sihanoukville</td>
+                    <td>5 Stars</td>
+                    <td>Open</td>
+                    <td>
+                        <button class="view-btn"><a href="view.html">View</a></button>
+                        <button class="edit-btn"><a href="edit.html">Edit</a></button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                  <td>AEON2</td>
+                  <td>Market</td>
+                  <td>Phnom Penh</td>
+                  <td>5 Stars</td>
+                  <td>Open</td>
+                  <td>
+                      <button class="view-btn"><a href="view.html">View</a></button>
+                      <button class="edit-btn"><a href="edit.html">Edit</a></button>
+                      <button class="delete-btn">Delete</button>
+                  </td>
+              </tr>
+              </tbody>
+          </table>
+      </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/overview.js"></script>
+</body>
+
+</html>

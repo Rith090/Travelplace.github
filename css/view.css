@@ -1,0 +1,54 @@
+.details .angkor {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    background: transparent;
+}
+
+.details .koh-rong {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    background: transparent;
+}
+
+.details .aeon2 {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-right: 100px;
+    background: transparent;
+}
+
+h1 {
+    font-size: 80px;
+    user-select: none;
+}
+
+.logo p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.logo button {
+    width: 25%;
+    height: 30px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 40px;
+    background: transparent;
+    margin: 10px 20px;
+}
+
+.logo button:hover {
+    background: #fff;
+}
+
+.logo button a {
+    text-decoration: none;
+    color: black;
+}

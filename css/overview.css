@@ -1,0 +1,102 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: transparent;
+}
+
+.main-content header h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+}
+
+.info-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-list table th, .info-list table td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: left;
+}
+
+.info-list table th {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.main-content input {
+    outline: none;
+    width: 30%;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px 9px;
+    margin-left: 35%;
+}
+
+.filter ::placeholder {
+    color: #fff;
+}
+
+.filter input {
+    color: #fff;
+}
+
+.filter .icon-search {
+    margin-left: 815px;
+    margin-top: 13px;
+    position: absolute;
+}
+
+.info-list h2 {
+    position: relative;
+    color: #fff;
+
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-btn {
+    background-color: #3498db;
+}
+
+.view-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.view-btn:hover {
+    background: #F5BCBA;
+}
+
+.edit-btn {
+    background-color: #f1c40f;
+}
+
+.edit-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #F5BCBA;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+body {
+    background: url('background.jpg');
+    background: #3498db;
+}
